@@ -1,0 +1,174 @@
+body, #slider, .wrap, .slide-content {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    height: 90vh;
+    overflow-x: hidden;
+} 
+ body{
+    background-color: #5c8a8a;
+} 
+
+
+
+.wrap{
+    position: relative;
+}
+
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1{background-image: url('image1.jpg');}
+.slide2{background-image: url('image2.jpg');}
+.slide3{background-image: url('image3.jpg');}
+ 
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-content span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+
+#arrow-right{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 30px;
+}
+
+
+/* **********************New class************/
+.menu {
+    background:  #5c8a8a;
+    padding: 6px 0px 6px 30px;
+}
+.menu a {
+    color:   #14ea9bfa;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.menu a:hover{
+    background-color: #25af5f;
+    
+}
+
+
+footer {
+    padding: 10px 40px 6px 40px;
+    background: #5c8a8a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e6ebec;
+    font-size: 11px;
+    text-decoration: none;
+    margin-left: 40px;
+    /* width: 95%; */
+}
+footer a{
+    text-decoration: none;
+    color: rgb(232, 241, 241);
+}
+
+/* ***********contact********/
+
+#contact #form {
+    width: 500px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 0px auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+#contact .Contact-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    color:rgb(45, 216, 179);
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #b0cfcf;
+}
+
+#contact #form input:hover{
+    background: #b3ffff;
+}
+
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #b0cfcf;
+}
+
+#contact #form #message:hover{
+    background: #b3ffff;
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: #5c8a8a;
+}
+
+#contact #form #submit:hover{
+    background: #b3ffff;
+}
+
+span{
+    font- size: 10px;
+}
+
+/* *************About Me Page*****/
+#image-container {
+   margin:0 auto;
+   color: violet; 
+
+}
+
+.mage-div {
+    /* padding-left: 300px; */
+    margin: 10px;
+}
+
+.mage-div img {
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+.image-para {
+   width: 120px;
+   padding: 0px 0px 0px 20px;
+   border-radius: 5px;
+}
+
+
